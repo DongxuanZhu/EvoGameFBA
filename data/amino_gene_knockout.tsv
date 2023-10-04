@@ -1,0 +1,21 @@
+Amino acid	Gene knockouts	Auxotrophy
+ala	b2290,b3572,b1190	EX_LalaDgluMdapDala_e,EX_alaala_e,EX_ala__L_e,EX_LalaDgluMdap_e,EX_LalaLglu_e,EX_LalaDglu_e,EX_ala__D_e
+arg	b3959,b3958,b3957,b3960	EX_arg__L_e,EX_orn_e
+asn	b3744,b0674	EX_asn__L_e
+asp	b0928	EX_asp__L_e,EX_asn__L_e
+cys	b2750	EX_gthrd_e,EX_cys__L_e,EX_cgly_e,EX_cys__D_e
+gln	b3870	EX_gln__L_e
+glu	b3212,b1761	EX_LalaDgluMdapDala_e,EX_LalaDgluMdap_e,EX_arg__L_e,EX_gthrd_e,EX_LalaDglu_e,EX_ptrc_e,EX_LalaLglu_e,EX_alaala_e,EX_orn_e,EX_asp__L_e,EX_agm_e,EX_gln__L_e,EX_4abut_e,EX_asn__L_e,EX_glu__L_e,EX_ala__L_e,EX_ala__D_e
+gly	b2551,b3617,b2551	EX_gly_e
+his	b2022,b2021,b2020,b2026	EX_his__L_e
+ile	b3770	EX_ile__L_e
+leu	b0073,b0072,b0071	EX_leu__L_e
+lys	b2838	EX_lys__L_e
+met	b4019,b3008	EX_met__L_e,EX_metsox_S__L_e,EX_metsox_R__L_e,EX_mmet_e
+phe	b3770	EX_phe__L_e
+pro	b0386	EX_progly_e,EX_pro__L_e
+ser	b4388,b2551	EX_g3ps_e,EX_ser__D_e,EX_pser__L_e,EX_ser__L_e
+thr	b0004	EX_thr__L_e,EX_thrp_e
+trp	b1261,b11260	EX_trp__L_e
+tyr	b2600	EX_tyrp_e,EX_tyr__L_e
+val	ivlE,VALTA,avtA,VPAMTr	EX_val__L_e
