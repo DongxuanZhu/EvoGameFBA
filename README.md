@@ -1,7 +1,7 @@
 # ReplicatorFBA
 ## *Evolutionary game simulation of microbial communities with replicator dynamics and Flux Balance Analysis*
 
-  ReplicatorFBA is a model framework that simulates population and metabolic dynamics of syntrophic microbial consortia with multiple strains. Combining the advantages from evolutionary game theory and Flux Balance Analysis (FBA), ReplicatorFBA aims to find out the metabolite exchange intensities that support evolutionarily stable syntrophic consortia. 
+  ReplicatorFBA is an integrated model that simulates population and metabolic dynamics of syntrophic microbial consortia with multiple strains. Combining the advantages from evolutionary game theory and Flux Balance Analysis (FBA), ReplicatorFBA aims to find out the metabolite exchange intensities that support evolutionarily stable syntrophic consortia. 
 ![ReplicatorFBA - how it works](https://github.com/DongxuanZhu/Fitness_CrossFeeding_MasterProject/assets/115150156/a59b4b0d-6ad8-4e88-9acb-594d95e57cef)
 
 ## What ...
