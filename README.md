@@ -6,16 +6,20 @@
 
 ## What ...
 ### What ReplicatorFBA can achieve?
+%add gifs
 1. **ReplicatorFBA simulates strain growth in co-culture settings**. The final growth of a strain is dependent on its growth across encounters with all other strains.
 2. **ReplicatorFBA explicitly displays metabolic dynamics** throughout growth. It can therefore reflect fitness impacts from different media conditions and metabolite exchange intensities.
 3. **ReplicatorFBA explicitly demonstrates frequency-dependent selection processes** with the help of replicator equations.
 4. **ReplicatorFBA can flexibly and dynamically tune the metabolic constraints** of strains (e.g. changed metabolite exchange intensities, additional amino acid supply).
 
 ### What have been found using ReplicatorFBA?
-1. **Metabolite exchange intensities tend to support evolutionarily stable syntrophic consortia around certain thresholds**. In my experiments, Isoleucine and Lysine auxotrophs can evolutionarily co-exist in all replicates when they exchange Isoleucine/Lysine near 0.08-0.1 mmol/gDW/h. By testing auxotroph growth in monoculture, I find the thresholds resembles the best intracellular amino acid concentrations of Isoleucine/Lysine.
+1. **Metabolite exchange intensities tend to support evolutionarily stable syntrophic consortia around certain thresholds**. In my experiments, Isoleucine and Lysine auxotrophs can evolutionarily co-exist in all replicates when they exchange Isoleucine/Lysine near 0.08-0.1 mmol/gDW/h.
+%add unit
 ![Key thresholds supporting evolutionarily stable syntrophic consortia](https://github.com/DongxuanZhu/Fitness_CrossFeeding_MasterProject/assets/115150156/e52533ee-21ec-4591-ace7-debbb4e664bb)
-
+By testing auxotroph growth in monoculture, I find the thresholds resembles the best intracellular amino acid concentrations of Isoleucine/Lysine.
+%add figure indicating the same thresholds
 2. **Reacquisition of public goods in shared environment supports better co-existence of consortia members**. By excluding reacquisition of public goods by all strains, I find the syntrophic microbial consortium is invaded in all scenarios. Compared to its survival when reacquisition is considered, the results indicate that stable environment allowing public goods accumulation/reacquisition can facilitate maintenance of syntrophic consortia.
+%add figure
 
 ## Why ...
 ### Why care about metabolite exchange intensities?
