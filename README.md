@@ -1,5 +1,5 @@
 # ReplicatorFBA
-## *Evolutionary game simulation of microbial communities with replicator dynamics and Flux Balance Analysis*
+## *Evolutionary game simulation of microbial communities using replicator dynamics and Flux Balance Analysis*
 
   ReplicatorFBA is an integrated model that simulates population and metabolic dynamics of syntrophic microbial consortia with multiple strains. Combining the advantages from evolutionary game theory and Flux Balance Analysis (FBA), ReplicatorFBA aims to find out the metabolite exchange intensities that support evolutionarily stable syntrophic consortia. 
 ![ReplicatorFBA - how it works](https://github.com/DongxuanZhu/Fitness_CrossFeeding_MasterProject/assets/115150156/a59b4b0d-6ad8-4e88-9acb-594d95e57cef)
@@ -22,7 +22,7 @@ By testing auxotroph growth in monoculture, I find the thresholds resembles the 
 %add figure
 
 ## Why ...
-### Why care about metabolite exchange intensities?
+### Why study metabolite exchange intensities?
 Metabolite exchange (i.e. cross-feeding) is a common type of interaction among microbes that sustains species diversity (Murillo-Roos et al., 2021) and creates reproducible community compositions and better target yields (Pascual-García et al., 2020; Rivett and Bell, 2018). Existing bioengineering technologies can promote metabolite exchange interactions by synthesizing auxotrophs and tuning expression levels of biosynthesis pathways (Atkinson et al., 2022; Darvishi et al., 2022), but maintenance of such syntrophic interactions in long-term is yet to be addressed. In evolutionary context, engineered metabolite exchange intensities have direct fitness impact on consortia members. Therefore, understanding what metabolite exchange intensities support the best survival of all consortia members could facilitate better bottom-up design of syntrophic microbial consortia.
 
 ### Why use replicator dynamics?
