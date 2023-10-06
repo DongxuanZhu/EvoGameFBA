@@ -1,19 +1,19 @@
-# ReplicatorFBA
+# EvoGameFBA
 ## *Evolutionary game simulation of microbial communities using replicator dynamics and Flux Balance Analysis*
 
-  ReplicatorFBA is an integrated model that simulates population and metabolic dynamics of syntrophic microbial consortia with multiple strains. Combining the advantages from evolutionary game theory and Flux Balance Analysis (FBA), ReplicatorFBA aims to find out the metabolite exchange intensities that support evolutionarily stable syntrophic consortia. 
-![ReplicatorFBA - how it works](https://github.com/DongxuanZhu/Fitness_CrossFeeding_MasterProject/assets/115150156/a59b4b0d-6ad8-4e88-9acb-594d95e57cef)
+  EvoGameFBA is an integrated model that simulates population and metabolic dynamics of syntrophic microbial consortia with multiple strains. Combining the advantages from evolutionary game theory and Flux Balance Analysis (FBA), EvoGameFBA aims to find out the metabolite exchange intensities that support evolutionarily stable syntrophic consortia. 
+![EvoGameFBA - how it works](https://github.com/DongxuanZhu/Fitness_CrossFeeding_MasterProject/assets/115150156/a59b4b0d-6ad8-4e88-9acb-594d95e57cef)
 
 ## What ...
-### What ReplicatorFBA can achieve?
+### What EvoGameFBA can achieve?
 %add gifs
-1. **ReplicatorFBA simulates strain growth in co-culture settings**. The final growth of a strain is dependent on its growth across encounters with all other strains.
-2. **ReplicatorFBA explicitly displays metabolic dynamics** throughout growth. It can therefore reflect fitness impacts from different media conditions and metabolite exchange intensities.
-3. **ReplicatorFBA explicitly demonstrates frequency-dependent selection processes** with the help of replicator equations.
-4. **ReplicatorFBA can flexibly and dynamically tune the metabolic constraints** of strains (e.g. changed metabolite exchange intensities, additional amino acid supply).
+1. **EvoGameFBA simulates strain growth in co-culture settings**. The final growth of a strain is dependent on its growth across encounters with all other strains.
+2. **EvoGameFBA explicitly displays metabolic dynamics** throughout growth. It can therefore reflect fitness impacts from different media conditions and metabolite exchange intensities.
+3. **EvoGameFBA explicitly demonstrates frequency-dependent selection processes** with the help of replicator equations.
+4. **EvoGameFBA can flexibly and dynamically tune the metabolic constraints** of strains (e.g. changed metabolite exchange intensities, additional amino acid supply).
 
-### What have been found using ReplicatorFBA?
-1. **Metabolite exchange intensities tend to support evolutionarily stable syntrophic consortia around certain thresholds**. In my experiments, Isoleucine and Lysine auxotrophs can evolutionarily co-exist in all replicates when they exchange Isoleucine/Lysine near 0.08-0.1 mmol/gDW/h.
+### What have been found using EvoGameFBA?
+1. **Metabolite exchange intensities tend to support evolutionarily stable syntrophic consortia around certain thresholds**. In my in-silico experiments, Isoleucine and Lysine auxotrophs can evolutionarily co-exist in all replicates when they exchange Isoleucine/Lysine near 0.08-0.1 mmol/gDW/h.
 %add unit
 ![Key thresholds supporting evolutionarily stable syntrophic consortia](https://github.com/DongxuanZhu/Fitness_CrossFeeding_MasterProject/assets/115150156/e52533ee-21ec-4591-ace7-debbb4e664bb)
 By testing auxotroph growth in monoculture, I find the thresholds resembles the best intracellular amino acid concentrations of Isoleucine/Lysine.
@@ -33,7 +33,7 @@ FBA is a powerful tool that predict single-species growth based on its Genome-Sc
 
 ## How ...
 ### Dependencies
-ReplicatorFBA requires IBM CPLEX Optimizer for Flux Balance Analysis. You may obtain an [academic license of CPLEX](https://www.ibm.com/academic/home). After installing CPLEX, **CPLEX python API** should also be installed.\
+EvoGameFBA requires IBM CPLEX Optimizer for Flux Balance Analysis. You may obtain an [academic license of CPLEX](https://www.ibm.com/academic/home). After installing CPLEX, **CPLEX python API** should also be installed.\
 Other required python packages may be installed using Anaconda with ```conda_requirements.txt```.
 ### Procedures
-For more details on how to use ReplicatorFBA, please see the DEMO in ```notebook/ReplicatorFBA-cocultureSimulations.ipynb``` (An elaborated walkthrough is working in progress).
+For more details on how to use EvoGameFBA, please see the DEMO in ```notebook/EvoGameFBA-cocultureSimulations.ipynb``` (An elaborated walkthrough is working in progress).
