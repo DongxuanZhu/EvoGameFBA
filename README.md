@@ -1,5 +1,5 @@
 # EvoGameFBA
-## *Evolutionary game simulation of microbial communities using replicator dynamics and Flux Balance Analysis*
+## *Evolutionary game simulation of microbial consortia using replicator dynamics and Flux Balance Analysis*
 
   EvoGameFBA is an integrated model that simulates population and metabolic dynamics of syntrophic microbial consortia with multiple strains. Combining the advantages from evolutionary game theory and Flux Balance Analysis (FBA), EvoGameFBA aims to find out the metabolite exchange intensities that support evolutionarily stable syntrophic consortia. 
 ![EvoGameFBA - how it works](https://github.com/DongxuanZhu/Fitness_CrossFeeding_MasterProject/assets/115150156/a59b4b0d-6ad8-4e88-9acb-594d95e57cef)
@@ -28,7 +28,7 @@ Metabolite exchange (i.e. cross-feeding) is a common type of interaction among m
 ### Why use replicator dynamics?
 Engineered syntrophic consortia are vulnerable to cheating mutants who free-rides on the public goods. Replicator dynamics, the most fundamental model from evolutionary game theory, explicitly shows the fitness dynamics and resulting growth dynamics between cooperators and cheaters. 
 
-### Why use FBA?
+### Why use Flux Balance Analysis (FBA)?
 FBA is a powerful tool that predict single-species growth based on its Genome-Scale Metabolic Model (Orth et al., 2010). It respects the non-linearity impact from metabolic reactions and records metabolic fluxes for each growth simulation. Therefore, adopting FBA to simulate growth helps better reflect fitness impacts from media conditions and metabolite exchange intensities.
 
 ## How ...
