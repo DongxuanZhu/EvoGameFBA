@@ -7,12 +7,12 @@ $\color{darkorange}{\Huge{\textsf{EvoGameFBA}}}$
 $\color{darkorange}{\Huge{\textsf{What...}}}$  
 \
 $\color{royalblue}{\large{\textsf{What EvoGameFBA can achieve?}}}$   
-1. $\color{royalblue}{\normalsize{\textsf{EvoGameFBA simulates strain growth in co-culture settings}}}$. The final growth of a strain is dependent on its growth across encounters with all other strains.
-2. $\color{royalblue}{\normalsize{\textsf{EvoGameFBA explicitly displays metabolic dynamics}}}$ throughout growth. It can therefore reflect fitness impacts from different media conditions and metabolite exchange intensities.
-3. $\color{royalblue}{\normalsize{\textsf{EvoGameFBA can flexibly and dynamically tune the metabolic constraints}}}$ of strains (e.g. changed metabolite exchange intensities, additional amino acid supply).
+1. $\color{midnightblue}{\normalsize{\textsf{EvoGameFBA simulates strain growth in co-culture settings}}}$. The final growth of a strain is dependent on its growth across encounters with all other strains.
+2. $\color{midnightblue}{\normalsize{\textsf{EvoGameFBA explicitly displays metabolic dynamics}}}$ throughout growth. It can therefore reflect fitness impacts from different media conditions and metabolite exchange intensities.
+3. $\color{midnightblue}{\normalsize{\textsf{EvoGameFBA can flexibly and dynamically tune the metabolic constraints}}}$ of strains (e.g. changed metabolite exchange intensities, additional amino acid supply).
 
 $\color{royalblue}{\large{\textsf{What have been found using EvoGameFBA?}}}$   
-1.  $\color{royalblue}{\normalsize{\textsf{syntrophic consortia tend to co-existence around certain metabolite exchange thresholds}}}$.
+1.  $\color{midnightblue}{\normalsize{\textsf{syntrophic consortia tend to co-existence around certain metabolite exchange thresholds}}}$.
 
  In my in-silico experiments, collaborative Isoleucine and Lysine auxotrophs can evolutionarily co-exist in all replicates when they exchange Isoleucine/Lysine near 0.08-0.1 mmol/gDW/h. They can maintain co-existence states in most replicates when the exchange intensities are below 2.0 mmol/gDW/h.
 ![Key exchange thresholds supporting evolutionarily stable syntrophic consortia](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/07ebc798-9a51-4deb-9a08-462a81e09808)
@@ -20,7 +20,7 @@ $\color{royalblue}{\large{\textsf{What have been found using EvoGameFBA?}}}$
 By testing auxotroph growth in monoculture, I find the thresholds resembles the best intracellular amino acid concentrations of Isoleucine/Lysine.
 ![Monoculture tests indicating Isoleucine/Lysine auxotroph growth under different forced metabolite exchange intensities](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/e2a91a43-27e5-438e-b7e1-3dca18613442)
 
-2.  $\color{royalblue}{\normalsize{\textsf{Reacquisition of public goods in shared environment supports better co-existence of consortia members}}}$.
+2.  $\color{midnightblue}{\normalsize{\textsf{Reacquisition of public goods in shared environment supports better co-existence of consortia members}}}$.
 
 By excluding reacquisition of public goods by all strains, I find the syntrophic microbial consortium is invaded in all scenarios. Compared to its survival when reacquisition is considered, the results indicate that stable environment allowing public goods accumulation/reacquisition can facilitate maintenance of syntrophic consortia.
 ![Reacquisition of public goods in shared environment supports better co-existence of consortia members](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/e8da4913-a9da-41d5-b8ca-6ed39d1040c3)
