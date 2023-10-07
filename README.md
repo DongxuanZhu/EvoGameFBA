@@ -1,17 +1,17 @@
-# EvoGameFBA
-## *Evolutionary game simulation of microbial consortia using replicator dynamics and Flux Balance Analysis*
+$\color{darkorange}{\Huge{\textsf{EvoGameFBA}}}$  
+### *Evolutionary game simulation of microbial consortia using replicator dynamics and Flux Balance Analysis*  
 
   EvoGameFBA is an integrated model that simulates population and metabolic dynamics of syntrophic microbial consortia with multiple strains. Combining the advantages from evolutionary game theory and Flux Balance Analysis (FBA), EvoGameFBA aims to find out the metabolite exchange intensities that support evolutionarily stable syntrophic consortia. 
 ![EvoGameFBA - how it works](https://github.com/DongxuanZhu/Fitness_CrossFeeding_MasterProject/assets/115150156/a59b4b0d-6ad8-4e88-9acb-594d95e57cef)
 
-## What ...
-### What EvoGameFBA can achieve?
-1. **EvoGameFBA simulates strain growth in co-culture settings**. The final growth of a strain is dependent on its growth across encounters with all other strains.
-2. **EvoGameFBA explicitly displays metabolic dynamics** throughout growth. It can therefore reflect fitness impacts from different media conditions and metabolite exchange intensities.
-3. **EvoGameFBA explicitly demonstrates frequency-dependent selection processes** with the help of replicator equations.
-4. **EvoGameFBA can flexibly and dynamically tune the metabolic constraints** of strains (e.g. changed metabolite exchange intensities, additional amino acid supply).
+$\color{darkorange}{\Huge{\textsf{What...}}}$  
+\
+$\color{royalblue}{\large{\textsf{What EvoGameFBA can achieve?}}}$   
+1. $\color{royalblue}{\normalsize{\textsf{EvoGameFBA simulates strain growth in co-culture settings}}}$. The final growth of a strain is dependent on its growth across encounters with all other strains.
+2. $\color{royalblue}{\normalsize{\textsf{EvoGameFBA explicitly displays metabolic dynamics}}}$ throughout growth. It can therefore reflect fitness impacts from different media conditions and metabolite exchange intensities.
+3. $\color{royalblue}{\normalsize{\textsf{EvoGameFBA can flexibly and dynamically tune the metabolic constraints}}}$ of strains (e.g. changed metabolite exchange intensities, additional amino acid supply).
 
-### What have been found using EvoGameFBA?
+$\color{royalblue}{\large{\textsf{What have been found using EvoGameFBA?}}}$   
 1. **Metabolite exchange intensities tend to support evolutionarily stable syntrophic consortia around certain thresholds**. In my in-silico experiments, collaborative Isoleucine and Lysine auxotrophs can evolutionarily co-exist in all replicates when they exchange Isoleucine/Lysine near 0.08-0.1 mmol/gDW/h. They can maintain co-existence states in most replicates when the exchange intensities are below 2.0 mmol/gDW/h.
 ![Key exchange thresholds supporting evolutionarily stable syntrophic consortia](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/07ebc798-9a51-4deb-9a08-462a81e09808)
 
