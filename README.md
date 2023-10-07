@@ -38,3 +38,12 @@ EvoGameFBA requires IBM CPLEX Optimizer for Flux Balance Analysis. You may obtai
 Other required python packages may be installed using Anaconda with ```conda_requirements.txt```.
 ### Procedures
 For more details on how to use EvoGameFBA, please see the DEMO in ```notebook/EvoGameFBA-cocultureSimulations.ipynb``` (An elaborated walkthrough is working in progress).
+
+## Reference
+Atkinson, E., Tuza, Z., Perrino, G., Stan, G.-B., Ledesma-Amaro, R., 2022. Resource-aware whole-cell model of division of labour in a microbial consortium for complex-substrate degradation. Microb Cell Fact 21, 115. https://doi.org/10.1186/s12934-022-01842-0 \
+Darvishi, F., Rafatiyan, S., Abbaspour Motlagh Moghaddam, M.H., Atkinson, E., Ledesma-Amaro, R., 2022. Applications of synthetic yeast consortia for the production of native and non-native chemicals. Critical Reviews in Biotechnology 1–16. https://doi.org/10.1080/07388551.2022.2118569 \
+Murillo-Roos, M., Abdullah, H.S.M., Debbar, M., Ueberschaar, N., Agler, M.T., 2021. Niche separation in cross-feeding sustains bacterial strain diversity across nutrient environments and may increase chances for survival in nutrient-limited leaf apoplasts (preprint). Microbiology. https://doi.org/10.1101/2021.11.07.467568 \
+Orth, J.D., Thiele, I., Palsson, B.Ø., 2010. What is flux balance analysis? Nat Biotechnol 28, 245–248. https://doi.org/10.1038/nbt.1614 \
+Pascual-García, A., Bonhoeffer, S., Bell, T., 2020. Metabolically cohesive microbial consortia and ecosystem functioning. Phil. Trans. R. Soc. B 375, 20190245. https://doi.org/10.1098/rstb.2019.0245 \
+Rivett, D.W., Bell, T., 2018. Abundance determines the functional role of bacterial phylotypes in complex communities. Nat Microbiol 3, 767–772. https://doi.org/10.1038/s41564-018-0180-0
+
