@@ -19,7 +19,8 @@ By testing auxotroph growth in monoculture, I find the thresholds resembles the 
 ![Monoculture tests indicating Isoleucine/Lysine auxotroph growth under different forced metabolite exchange intensities](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/e2a91a43-27e5-438e-b7e1-3dca18613442)
 
 2. **Reacquisition of public goods in shared environment supports better co-existence of consortia members**. By excluding reacquisition of public goods by all strains, I find the syntrophic microbial consortium is invaded in all scenarios. Compared to its survival when reacquisition is considered, the results indicate that stable environment allowing public goods accumulation/reacquisition can facilitate maintenance of syntrophic consortia.
-%add figure
+![Reacquisition of public goods in shared environment supports better co-existence of consortia members](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/e8da4913-a9da-41d5-b8ca-6ed39d1040c3)
+
 
 ## Why ...
 ### Why study metabolite exchange intensities?
