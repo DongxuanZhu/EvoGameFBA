@@ -12,7 +12,7 @@ $\color{royalblue}{\large{\textsf{What EvoGameFBA can achieve?}}}$
 3. $\color{midnightblue}{\normalsize{\textsf{EvoGameFBA can flexibly and dynamically tune the metabolic constraints}}}$ of strains (e.g. changed metabolite exchange intensities, additional amino acid supply).
 
 $\color{royalblue}{\large{\textsf{What have been found using EvoGameFBA?}}}$   
-1.  $\color{midnightblue}{\normalsize{\textsf{syntrophic consortia tend to co-existence around certain metabolite exchange thresholds}}}$.
+1.  $\color{midnightblue}{\normalsize{\textsf{syntrophic consortia tend to co-existence around certain metabolite exchange thresholds}}}$
 
  In my in-silico experiments, collaborative Isoleucine and Lysine auxotrophs can evolutionarily co-exist in all replicates when they exchange Isoleucine/Lysine near 0.08-0.1 mmol/gDW/h. They can maintain co-existence states in most replicates when the exchange intensities are below 2.0 mmol/gDW/h.
 ![Key exchange thresholds supporting evolutionarily stable syntrophic consortia](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/07ebc798-9a51-4deb-9a08-462a81e09808)
@@ -20,9 +20,9 @@ $\color{royalblue}{\large{\textsf{What have been found using EvoGameFBA?}}}$
 By testing auxotroph growth in monoculture, I find the thresholds resembles the best intracellular amino acid concentrations of Isoleucine/Lysine.
 ![Monoculture tests indicating Isoleucine/Lysine auxotroph growth under different forced metabolite exchange intensities](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/e2a91a43-27e5-438e-b7e1-3dca18613442)
 
-2.  $\color{midnightblue}{\normalsize{\textsf{Reacquisition of public goods in shared environment supports better co-existence of consortia members}}}$.
+2.  $\color{midnightblue}{\normalsize{\textsf{Reacquisition of public goods in shared environment supports better co-existence of consortia members}}}$
 
-By excluding reacquisition of public goods by all strains, I find the syntrophic microbial consortium is invaded in all scenarios. Compared to its survival when reacquisition is considered, the results indicate that stable environment allowing public goods accumulation/reacquisition can facilitate maintenance of syntrophic consortia.
+By excluding reacquisition of public goods by all strains, I find the syntrophic microbial consortia are invaded in all scenarios. Compared to their survival when reacquisition is considered, the results indicate that stable environment allowing public goods accumulation/reacquisition can facilitate maintenance of syntrophic consortia.
 ![Reacquisition of public goods in shared environment supports better co-existence of consortia members](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/e8da4913-a9da-41d5-b8ca-6ed39d1040c3)
 
 $\color{darkorange}{\Huge{\textsf{Why...}}}$  
@@ -30,8 +30,8 @@ $\color{darkorange}{\Huge{\textsf{Why...}}}$
 $\color{royalblue}{\large{\textsf{Why study metabolite exchange intensities?}}}$  
 Metabolite exchange (i.e. cross-feeding) is a common type of interaction among microbes that sustains species diversity (Murillo-Roos et al., 2021) and creates reproducible community compositions and better target yields (Pascual-García et al., 2020; Rivett and Bell, 2018). Existing bioengineering technologies can promote metabolite exchange interactions by synthesizing auxotrophs and tuning expression levels of biosynthesis pathways (Atkinson et al., 2022; Darvishi et al., 2022), but maintenance of such syntrophic interactions in long-term is yet to be addressed. In evolutionary context, engineered metabolite exchange intensities have direct fitness impact on consortia members. Therefore, understanding what metabolite exchange intensities support the best survival of all consortia members could facilitate better bottom-up design of syntrophic microbial consortia.
 
-$\color{royalblue}{\large{\textsf{Why use replicator dynamics?}}}$  
-Engineered syntrophic consortia are vulnerable to cheating mutants who free-rides on the public goods. Replicator dynamics, the most fundamental model from evolutionary game theory, explicitly shows the fitness dynamics and resulting growth dynamics between cooperators and cheaters. 
+$\color{royalblue}{\large{\textsf{Why adopt evolutionary game theory and replicator dynamics?}}}$  
+Engineered syntrophic consortia are vulnerable to cheating mutants who free-rides on the public goods. Evolutionary game theory introduces a way to select for the most robust syntrophic consortia - when a consortium cannot be invaded from any mutants, it is evolutionarily stable. Replicator dynamics, the most fundamental model from evolutionary game theory, explicitly shows the fitness dynamics in invasion processes initiated by cheaters. It can therefore provide fitness profiles under certain metabolic conditions.
 
 $\color{royalblue}{\large{\textsf{Why use Flux Balance Analysis (FBA)?}}}$  
 FBA is a powerful tool that predict single-species growth based on its Genome-Scale Metabolic Model (Orth et al., 2010). It respects the non-linearity impact from metabolic reactions and records metabolic fluxes for each growth simulation. Therefore, adopting FBA to simulate growth helps better reflect fitness impacts from media conditions and metabolite exchange intensities.
@@ -46,6 +46,8 @@ $\color{royalblue}{\large{\textsf{Procedures}}}$
 For more details on how to use EvoGameFBA, please see the DEMO in ```notebook/EvoGameFBA-cocultureSimulations.ipynb``` (An elaborated walkthrough is working in progress).
 
 $\color{darkorange}{\Huge{\textsf{Reference}}}$  
+
+
 Atkinson, E., Tuza, Z., Perrino, G., Stan, G.-B., Ledesma-Amaro, R., 2022. Resource-aware whole-cell model of division of labour in a microbial consortium for complex-substrate degradation. Microb Cell Fact 21, 115. https://doi.org/10.1186/s12934-022-01842-0 \
 Darvishi, F., Rafatiyan, S., Abbaspour Motlagh Moghaddam, M.H., Atkinson, E., Ledesma-Amaro, R., 2022. Applications of synthetic yeast consortia for the production of native and non-native chemicals. Critical Reviews in Biotechnology 1–16. https://doi.org/10.1080/07388551.2022.2118569 \
 Murillo-Roos, M., Abdullah, H.S.M., Debbar, M., Ueberschaar, N., Agler, M.T., 2021. Niche separation in cross-feeding sustains bacterial strain diversity across nutrient environments and may increase chances for survival in nutrient-limited leaf apoplasts (preprint). Microbiology. https://doi.org/10.1101/2021.11.07.467568 \
