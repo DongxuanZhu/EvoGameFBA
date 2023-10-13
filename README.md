@@ -59,7 +59,9 @@ EvoGameFBA requires IBM CPLEX Optimizer for Flux Balance Analysis. You may obtai
 Other required python packages may be installed using Anaconda with ```conda_requirements.txt```.
 <a name="how2"></a>
 ### Usage
-For more details on how to use EvoGameFBA, please see the DEMO in ```notebook/EvoGameFBA-cocultureSimulations.ipynb``` (An elaborated walkthrough is working in progress).
+For more details on how to use EvoGameFBA, please see the DEMO in ```notebook/EvoGameFBA-cocultureSimulations.ipynb``` (An elaborated walkthrough is working in progress). Here's a flowchart of the model framework:
+![diagram-01](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/e7755c51-25d1-473b-82b1-0dbcf785ca17)
+
 
 ****
 <a name="citations"></a>
