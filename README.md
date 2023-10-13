@@ -60,8 +60,7 @@ Other required python packages may be installed using Anaconda with ```conda_req
 <a name="how2"></a>
 ### Usage
 For more details on how to use EvoGameFBA, please see the DEMO in ```notebook/EvoGameFBA-cocultureSimulations.ipynb``` (An elaborated walkthrough is working in progress). Here's a flowchart of the model framework:
-![diagram-01](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/e7755c51-25d1-473b-82b1-0dbcf785ca17)
-
+<img src="https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/9618e9ea-d0be-4d04-a6a4-497bfa0710cf" width="800">
 
 ****
 <a name="citations"></a>
