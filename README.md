@@ -26,18 +26,23 @@
 3. **EvoGameFBA can flexibly and dynamically tune the metabolic constraints** of strains (e.g. changed metabolite exchange intensities, additional amino acid supply).
 <a name="what2"></a>
 ### What have been found using EvoGameFBA?   
-1.  **syntrophic consortia tend to co-existence around certain metabolite exchange thresholds**
+1.  **The fittest metabolite exchange intensity is close to the optimal amino acid uptake rates of both auxotrophs**
 
- In my in-silico experiments, collaborative Isoleucine and Lysine auxotrophs can evolutionarily co-exist in all replicates when they exchange Isoleucine/Lysine near 0.08-0.1 mmol/gDW/h. They can maintain co-existence states in most replicates when the exchange intensities are below 2.0 mmol/gDW/h.
-![Key exchange thresholds supporting evolutionarily stable syntrophic consortia](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/07ebc798-9a51-4deb-9a08-462a81e09808)
+ In my in-silico experiments, collaborative Isoleucine and Lysine auxotrophs have the best co-existence outcome when they exchange Isoleucine/Lysine at 0.1 mmol/gDW/h. They can maintain co-existence states in most replicates when the exchange intensities are below 2.0 mmol/gDW/h.
+![Key exchange thresholds supporting evolutionarily stable syntrophic consortia](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/9dac6c5f-6c28-4b41-9cb6-88e0575e6258)
 
-By testing auxotroph growth in monoculture, I find the thresholds resembles the best intracellular amino acid concentrations of Isoleucine/Lysine.
-![Monoculture tests indicating Isoleucine/Lysine auxotroph growth under different forced metabolite exchange intensities](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/e2a91a43-27e5-438e-b7e1-3dca18613442)
+By testing auxotroph growth in monoculture, I find the optimal exchange intensity (0.1 mmol/gDW/h) is close to the amino acid uptake thresholds that support the optimal biomass yields of studied auxotrophs (a-b). Furthermore, these optimal biomass yields can be linearly controlled by initial glucose supply (e-f).
+![Monoculture tests indicating Isoleucine/Lysine auxotroph growth under different forced metabolite exchange intensities](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/2dc74a32-ffef-4d49-b64a-e230b8f3103b)
 
-2.  **Reacquisition of public goods in shared environment supports better co-existence of consortia members**
+2.  **Reacquisition of public goods in shared environment supports cross-feeder co-existence at high exchange intensities**
 
-By excluding reacquisition of public goods by all strains, I find the syntrophic microbial consortia are invaded in all scenarios. Compared to their survival when reacquisition is considered, the results indicate that stable environment allowing public goods accumulation/reacquisition can facilitate maintenance of syntrophic consortia.
-![Reacquisition of public goods in shared environment supports better co-existence of consortia members](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/e8da4913-a9da-41d5-b8ca-6ed39d1040c3)
+By excluding reacquisition of public goods by all strains, I find the syntrophic microbial consortia survive within a narrower metabolite exchange range. Compared to their survival when reacquisition is considered, the results indicate that an environment supportive to public goods reacquisition can facilitate maintenance of syntrophic consortia when they have to exchange amino acids at high intensities.
+![Reacquisition of public goods in shared environment supports better co-existence of consortia members](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/e500a313-4afe-4d91-9171-812d0780ad17)
+
+3. **Sytrophic consortia maintain their metabolic interdependencies at the optimal exchange intensity regardless of public goods accumulation**
+As amino acids accumulate in shared environment, cross-feeding auxotrophs no longer need to depend on each other for growth-limiting metabolite supplements. This is reflected in the enhanced couplings between growth rates and fitness advantages. However, such coupling is not significant for cross-feeding auxotrophs with the optimal metabolite exchange intensity, indicating good maintenance potential under this exchange intensity.
+![growth rate - payoff coupling during amino acid accumulation phase](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/6df02d7e-0a8c-4e11-98df-ab5a794d40ef)
+
 ****
 <a name="why"></a>
 ## Why...
