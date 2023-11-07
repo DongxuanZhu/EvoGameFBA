@@ -32,7 +32,8 @@
 ![Key exchange thresholds supporting evolutionarily stable syntrophic consortia](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/9dac6c5f-6c28-4b41-9cb6-88e0575e6258)
 
 By testing auxotroph growth in monoculture, I find the optimal exchange intensity (0.1 mmol/gDW/h) is close to the amino acid uptake thresholds that support the optimal biomass yields of studied auxotrophs (a-b). Furthermore, these optimal biomass yields can be linearly controlled by initial glucose supply (e-f).
-![Monoculture tests indicating Isoleucine/Lysine auxotroph growth under different forced metabolite exchange intensities](https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/2dc74a32-ffef-4d49-b64a-e230b8f3103b)
+<img src="https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/2dc74a32-ffef-4d49-b64a-e230b8f3103b" width="800">
+
 
 2.  **Reacquisition of public goods in shared environment supports cross-feeder co-existence at high exchange intensities**
 
@@ -65,7 +66,7 @@ Other required python packages may be installed using Anaconda with ```conda_req
 <a name="how2"></a>
 ### Usage
 For more details on how to use EvoGameFBA, please see the DEMO in ```notebook/EvoGameFBA-cocultureSimulations.ipynb``` (An elaborated walkthrough is working in progress). Here's a flowchart of the model framework:
-<img src="https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/9618e9ea-d0be-4d04-a6a4-497bfa0710cf" width="800">
+<img src="https://github.com/DongxuanZhu/EvoGameFBA/assets/115150156/52b34b5d-ff7f-4470-99e1-dfca46e9ab73" width="800">
 
 ****
 <a name="citations"></a>
